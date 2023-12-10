@@ -2,7 +2,7 @@
 This is the repository for the CSE 597 Final Project
 
 
-In order to implement fine-tuning of the BLIP (Bootstrapping Language-Image Pre-training) model with a VIT (Vision Transformer) base for an image-to-text retrieval task, I have followed the following steps:
+To implement fine-tuning of the BLIP (Bootstrapping Language-Image Pre-training) model with a VIT (Vision Transformer) base for an image-to-text retrieval task, I have followed the following steps:
 
 1) Obtain the COCO and Flickr30k datasets from their respective official websites.
 2) Set the 'image_root' parameter in the configuration file (configs/retrieval_{dataset}.yaml) to the root directory where the downloaded images are stored.
@@ -18,5 +18,5 @@ In order to implement fine-tuning of the BLIP (Bootstrapping Language-Image Pre-
   --config ./configs/retrieval_coco.yaml \
   --output_dir output/retrieval_coco 
 
-
-Due to limited compute power, I could not finetune the model on 8 A100 GPUs as mentioned in the paper. I also had to change the training batch size to 8 and the testing batch size to 32 for the implementation to be successful.
+Due to limited compute power, I could not finetune the model on 8 A100 GPUs as mentioned in the paper. 
+I also had to change the training batch size to 8 and the testing batch size to 32 for the implementation to be successful.
