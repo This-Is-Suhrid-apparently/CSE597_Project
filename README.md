@@ -17,3 +17,6 @@ In order to implement fine-tuning of the BLIP (Bootstrapping Language-Image Pre-
    python -m torch.distributed.run --nproc_per_node=8 train_retrieval.py \
   --config ./configs/retrieval_coco.yaml \
   --output_dir output/retrieval_coco 
+
+
+Due to limited compute power, I could not finetune the model on 8 A100 GPUs as mentioned in the paper. I also had to change the training batch size to 8 and the testing batch size to 32 for the implementation to be successful.
