@@ -20,3 +20,4 @@ To implement fine-tuning of the BLIP (Bootstrapping Language-Image Pre-training)
 
 Due to limited compute power, I could not finetune the model on 8 A100 GPUs as mentioned in the paper. 
 I also had to change the training batch size to 8 and the testing batch size to 32 for the implementation to be successful.
+For this, I have updated the config files as per requirement.
