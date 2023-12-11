@@ -1,5 +1,5 @@
 #image_root: '/export/share/datasets/vision/flickr30k/'
-image_root: '/home/dqk5620/code/CSE597/CSE597_Project/BLIP/flickr30k_images/'
+image_root: '/home/sjd6289/code/CSE597/CSE597_Project/BLIP/flickr30k_images/'
 ann_root: 'annotation'
 dataset: 'flickr'
 
