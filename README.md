@@ -20,7 +20,7 @@ Image-Text Retrieval (Flickr30k) | <a href="https://storage.googleapis.com/sfr-v
 ### Image-Text Retrieval:
 1. Download COCO and Flickr30k datasets from the original websites, and set 'image_root' in configs/retrieval_{dataset}.yaml accordingly.
    
-2. To evaluate the finetuned BLIP model on Flickr30K, run: retrieval_flickr.yaml
+2. To evaluate the finetuned BLIP model on Flickr30K, run: 
    <pre>python -m torch.distributed.run --nproc_per_node=1 train_retrieval.py \
    --config ./configs/retrieval_flickr.yaml \
    --output_dir output/retrieval_flickr \
