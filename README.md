@@ -23,7 +23,7 @@ Image-Text Retrieval (Flickr30k) | <a href="https://storage.googleapis.com/sfr-v
 2. To evaluate the finetuned BLIP model on Flickr30K, run: 
    <pre>python -m torch.distributed.run --nproc_per_node=1 train_retrieval.py \
    --config ./configs/retrieval_flickr.yaml \
-   --output_dir output/retrieval_flickr \
+   --output_dir output/retrieval_flickr \</pre>
          
    To evaluate the finetuned BLIP model on COCO, run:
    <pre>python -m torch.distributed.run --nproc_per_node=1 train_retrieval.py \
