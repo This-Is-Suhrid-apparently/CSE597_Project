@@ -1,5 +1,5 @@
 #image_root: '/export/share/datasets/vision/coco/images/'
-image_root: /home/dqk5620/code/CSE597/CSE597_Project/BLIP/coco2017
+image_root: /home/sjd6289/code/CSE597/CSE597_Project/BLIP/coco2017
 ann_root: annotation
 dataset: coco
 
